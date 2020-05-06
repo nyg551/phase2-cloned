@@ -9,6 +9,6 @@ for i in $@; do :; done
 for j in {1..i-1}
 do
    cp "$j" a@server2.fi:$i
-   sum_sizes = sum_sizes + $(wc -c "$j);
+   sum_sizes = sum_sizes + $(wc -c "$j");
 done
 echo sum_sizes;
