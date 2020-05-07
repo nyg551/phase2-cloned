@@ -19,4 +19,4 @@ echo        "Order allow,deny">> /etc/hosts/httpd.conf
 echo        "Allow from all">> /etc/hosts/httpd.conf
 echo        "Require all granted">> /etc/hosts/httpd.conf
 echo    "</Directory>">> /etc/hosts/httpd.conf
-echo "</VirtualHost>">> /etc/hosts/httpd.conf
+echo  "</VirtualHost>">> /etc/hosts/httpd.conf
